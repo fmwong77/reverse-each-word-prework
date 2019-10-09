@@ -7,4 +7,10 @@ def reverse_each_word(string)
   end
   
   reversed_string.join(" ")
+  
+  reversed_string = []
+  
+  array.collect do |s|
+    reversed_string.push(s.reverse) 
+  end
 end
